@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+button {
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px 10px;
+    border-width: 0;
+    color: #000;
+}
+
+#btn1 {
+    margin-right: 20px;
+}
+
+#btn2 {
+    background-color: #000;
+    color: #fff;
+    width: auto;
+}
+
+
+
+
+/* top : navigation and title*/
+.d-logo {
+    text-align: left;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.headerfirst {
+    height: 100px;
+    background-color: rgb(37, 94, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.menu {
+    width: 40%;
+}
+
+li {
+    padding: 6px;
+    color: white;
+}
+
+.log {
+    text-align: right;
+    line-height: 40px;
+    padding-right: 5px;
+    color: #000;
+}
+
+.d-logo,
+.log {
+    width: 15%;
+}
+
+.d-logo,
+.menu,
+.log {
+    height: 40px;
+}
+
+.container {
+    background-image: url("../jumbo.png");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+
+#header-paragraph {
+    color: #fff;
+    margin: 0 400px 100px;
+    text-align: center;
+}
+
+.btn-second {
+    background-color: #000;
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.h-b {
+    text-align: center;
+    ;
+    width: ;
+    color: #fff;
+}
+
+.h-content {
+    height: 400px;
+}
+
+.title-wrapper {
+    padding: 0 150px 0;
+}
+
+/* sections-text n images */
+.section1 {
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1.gr,
+.section2.gr {
+    background-color: #d3d3d3;
+}
+
+.imgcolumn {
+    height: 500px;
+    width: 35%;
+}
+
+.txtcolumn {
+    height: 500px;
+    width: 25%;
+}
+
+.section2 {
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2container {
+    height: 1000px;
+    width: 60%;
+}
+
+/* bottom - info sign-in */
+footer {
+    background-color: #23272a;
+    height: 700px;
+}
+
+.footer1 {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.socialicons {
+    height: 500px;
+    width: 20%;
+}
+
+.infos {
+    height: 500px;
+    width: 10%;
+}
+
+.footer2 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.footer2container {
+    height: 90px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-logo-footer {
+    height: 40px;
+    width: 8%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sign {
+    height: 40px;
+    width: 10%;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* debugz */
+.h-b.debug {
+    background-color: #00008b;
+}
+
+.d-logo.debug,
+.menu.debug,
+.log.debug {
+    background-color: #daa520;
+    border: 2px dotted black;
+}
+
+.imgcolumn.debug {
+    background-color: #1e90ff;
+    border: 2px dotted black;
+}
+
+.h-content.debug {
+    background-color: #ee82ee;
+}
+
+.txtcolumn.debug {
+    background-color: #ffc0cb;
+    border: 2px dotted black;
+}
+
+.section2container.debug {
+    background-color: #228b22;
+    border: 2px dotted black;
+}
+
+.socialicons.debug {
+    background-color: #f08080;
+    border: 2px dotted black;
+}
+
+.infos.debug {
+    background-color: #20b2aa;
+    border: 2px dotted white;
+}
+
+.footer2container.debug {
+    background-color: #7fffd4;
+}
+
+.d-logo2.debug,
+.sign.debug {
+    background-color: #ffb6c1;
+    border: 2px dotted black;
+}
