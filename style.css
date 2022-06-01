@@ -44,7 +44,7 @@ button {
     height: 100px;
     background-color: rgb(37, 94, 233);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -53,15 +53,15 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
 
 .menu {
     width: 40%;
+    
 }
 
 li {
-    padding: 6px;
+    padding: 10px;
     color: white;
 }
 
@@ -114,13 +114,6 @@ title {
 
 
 
-
-.h-b {
-    text-align: center;
-    ;
-    width: ;
-    color: #fff;
-}
 
 .h-content {
     height: 400px;
@@ -200,9 +193,14 @@ title {
     position: absolute;
 }
 
-#4thbutton {
-    color: white;
-    background-color: #20b2aa;
+.bluebtn {
+    background-color: rgb(115, 137, 219);
+    color: #fff;
+}
+
+#btn-4 {
+    padding: 5px 20px 5px;
+    margin-top: 20px;
 }
 /* bottom - info sign-in */
 footer {
@@ -308,11 +306,6 @@ footer {
     width: 50%;
 }
 
-
-.section2container.debug {
-    background-color: #228b22;
-    border: 2px dotted black;
-}
 
 
 
