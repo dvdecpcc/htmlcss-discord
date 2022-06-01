@@ -95,12 +95,11 @@ li {
 title {
     color: #fff;
     font-weight: bolder;
-    margin-bottom: 100px;
 }
 
 #header-paragraph {
     color: #fff;
-    margin: 0 400px 100px;
+    margin: 30px 400px 100px;
     text-align: center;
 }
 
@@ -126,10 +125,22 @@ title {
 /* sections-text n images */
 .section1 {
     height: 600px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.wave {
+    background-image: url("../wave.svg");
+    height: 100px;
+    filter: opacity(0.1);
+}
+
+.reversed {
+    transform: rotateX(180deg);
+}
+
+.gray {
+    background-color: rgb(229, 229, 229);
 }
 .reverse {
     flex-direction: row-reverse;
@@ -225,7 +236,6 @@ footer {
 
 #footer-title {
     padding-top: 15px;
-    padding-left: 30px;
     padding-bottom: 25px;
 }
 
@@ -241,19 +251,22 @@ footer {
 }
 #ita {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
 }
-
+#flag-it {
+    width: 10%;
+}
 #icons {
     width: 20px;
-    justify-content: space-around;
+    margin: 5px;
 }
 
 .icon-container {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
+    padding: 20px;
+        padding-left: 0;
+        justify-content: space-between;
 }
 .infos {
     height: 500px;
@@ -291,16 +304,8 @@ footer {
 }
 
 /* debugz */
-.h-b.debug {
-    background-color: #00008b;
-}
 
-.d-logo.debug,
-.menu.debug,
-.log.debug {
-    background-color: #daa520;
-    border: 2px dotted black;
-}
+
 
 .imgcolumn {
     width: 50%;
