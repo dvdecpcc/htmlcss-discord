@@ -139,20 +139,20 @@ title {
     transform: rotateX(180deg);
 }
 
-.gray {
+.section1.gray {
     background-color: rgb(229, 229, 229);
 }
 .reverse {
     flex-direction: row-reverse;
 }
-.section1.gr,
+
 .section2.gr {
-    background-color: #d3d3d3;
+    background-color: white;
 }
 
 .section4container {
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(229, 229, 229);
     color: #000;
     padding-bottom: 100px;
 }
@@ -160,7 +160,6 @@ title {
 .txtcolumn {
     height: 500px;
     width: 25%;
-    background-color: white;
         color: #000;
         border: none;
         margin-top: 210px;
