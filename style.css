@@ -154,9 +154,11 @@ title {
     text-align: center;
     background-color: rgb(229, 229, 229);
     color: #000;
-    padding-bottom: 100px;
+    padding: 0 200px 100px;
 }
-
+.section4container h1 {
+    margin-bottom: 30px;
+}
 .txtcolumn {
     height: 500px;
     width: 25%;
